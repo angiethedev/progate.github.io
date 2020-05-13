@@ -1,0 +1,79 @@
+
+body{
+   width: 100%;
+}
+#main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /*width: 100%;*/
+    background: teal;
+    color: white;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+    /*padding: 0;*/
+
+}
+#title{
+
+}
+#tribute-info{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}/*
+#img-div{
+    padding: 0;
+    flex: 1 1 auto;
+}*/
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#image-caption{ 
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+.citation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.timeline{
+    flex: auto;
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(90, 90, 100);
+    /*max-width: 60%;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.timeline span{
+    font-weight: bold;
+}
+.timeline li{
+    text-align: left;
+}
+.citation p{
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+p a {
+    color: coral;
+}
+.citation p a:hover{
+    color: chartreuse;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+}
